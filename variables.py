@@ -28,6 +28,12 @@ hi = "Hello World!"
 # print("hi")
 # print(name)
 
-print("Hello, what is your name, how old are you and what is your date of birth? ")
-user_info = input()
-print(user_info)
+print("Hello, what is your name?")
+user_name = input()
+print("and how old are you?")
+user_age = input()
+print("and what is you D.O.B. ?")
+user_DOB = input()
+
+print(user_name + " is " + user_age + " old " + "and was born the " + user_DOB)
+
