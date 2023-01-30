@@ -40,5 +40,5 @@ print("Also what are some of your hobbies?")
 hobbies = input()
 
 
-print(user_name + " is " + user_age + " old " + "and was born on the " + user_DOB + " and lives at " + address +  " and their hobbies include " + hobbies)
+print(f" {user_name} is {user_age} old and was born on the {user_DOB} and lives at {address} and their hobbies include {hobbies}")
 
